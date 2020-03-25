@@ -1,0 +1,74 @@
+#app {
+  // prevents "swimming" layout on mobile
+  overflow: hidden;
+  // add all styles that should apply to the whole project within this
+  // The ID "app" is part of the HTML template, and is the entry point where
+  // the React components are being injected into.
+
+  min-height: 100vh;
+
+  strong {
+    border-bottom: 4px solid rgba(255, 221, 0, 0.6);
+    color: #000 !important;
+  }
+
+  .page-title {
+    margin-top: .5rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    line-height: 0.9;
+    display: block;
+  }
+
+  h1.ui.header .sub.header {
+    font-size: 1.5rem;
+    color: black;
+    margin: 1rem auto .5rem auto;
+  }
+
+  .feedback-message {
+    display: none;
+  }
+
+  .switcher {
+    padding: 20px 0 0 0;
+
+    .buttons {
+      padding: 50px 0 20px 0;
+    }
+  }
+
+  .box {
+    width: 100%;
+    padding: 2em;
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.2);
+
+    @media only screen and (max-width: 599px) {
+      padding: 1.5em;
+    }
+    @media only screen and (min-width: 599px) {
+      max-width: 550px;
+    }
+  }
+
+  .mapform {
+    margin: 50px 0 0 0;
+
+    // background-color: rgb(245, 245, 245);
+
+    h2 {
+      font-family: Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+      font-size: 1em;
+      font-weight: bold;
+      margin: calc(2rem - .025em) 0 1rem !important;
+    }
+  }
+
+  #mapcontainer {
+    position: relative;
+  }
+}
