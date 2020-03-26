@@ -9,7 +9,7 @@ export const ActivationButton = ({
   deactivate,
   // @ts-ignore
   initialState,
-  buttonTexts = ['Activate map', 'Deactivte map'],
+  buttonTexts = ['Karte aktivieren', 'Karte sperren'],
   icon = ['moving.svg', 'lock.svg']
 }) => {
   const [state, setState] = useState(initialState)
