@@ -8,7 +8,7 @@ import { MapAddComponent } from '../components/mapview.add'
 const Add = () => {
   return (
     <Layout>
-      <Head title={`Add`} />
+      <Head title={`Erfassen`} />
       <div className='index'>
         <section className='ui vertical very fitted segment' style={{marginTop: '1rem'}}>
           <div className='ui container'>
