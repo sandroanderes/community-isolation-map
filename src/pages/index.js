@@ -6,7 +6,7 @@ import { MapViewComponent } from '../components/mapview.main'
 /* SEO Component with React Helmet */
 import Head from '../components/head'
 
-const logo = require('../images/logo-main-aarau.svg');
+const logo = require('../images/logo-main-aarau.png');
 const Index = () => {
 
   const data = useStaticQuery(graphql`
