@@ -25,6 +25,7 @@ const Header = () => {
 
   return (
     <header>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900&display=swap" rel="stylesheet"></link>
       <div className={'ui unstackable grid'}>
         <div className={'ui twelve wide column logo-column'}>
           <div
@@ -37,7 +38,7 @@ const Header = () => {
             <span>{data.site.siteMetadata.title}</span>
           </h1>
         </div>
-        <div className={'ui four wide right aligned column'} style={{padding: '.8rem 1.4rem 0 0'}}>
+       {/*  <div className={'ui four wide right aligned column'} style={{padding: '.8rem 1.4rem 0 0'}}>
           <div className={'icon-container'}>
             <a href={'https://wa.me/?text=' + shareText} target={'_blank'} rel={'noopener noreferrer'}>
               <i className='ui icon whatsapp' />
@@ -52,7 +53,7 @@ const Header = () => {
               <i className='ui icon envelope' />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   );

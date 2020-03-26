@@ -91,7 +91,7 @@ function AnimatedMap(props) {
       container: 'map',
       style: mapStyle,
       zoom: 8,
-      minZoom: 4,
+      minZoom: 12,
       maxZoom: 18,
       interactive: true,
       bounds: data.site.siteMetadata.mapData.bounds,
@@ -153,7 +153,7 @@ function AnimatedMap(props) {
         source: 'outline',
         paint: {
           'fill-color': 'white',
-          'fill-opacity': 0.6
+          'fill-opacity': 1
         }
       })
 

@@ -14,7 +14,7 @@ function CategoryButtons(props) {
         ident='all'
         selected={props.selected.length === 0 ? ['all'] : props.selected}
       >
-        Everything
+        Alle
       </Button>
       {categories.map(item => (
         <Button

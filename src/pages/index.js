@@ -6,6 +6,7 @@ import { MapViewComponent } from '../components/mapview.main'
 /* SEO Component with React Helmet */
 import Head from '../components/head'
 
+const logo = require('../images/logo-main-aarau.svg');
 const Index = () => {
 
   const data = useStaticQuery(graphql`
@@ -13,6 +14,7 @@ const Index = () => {
       site {
         siteMetadata {
           title,
+          description,
           email
         }
       }
@@ -23,17 +25,16 @@ const Index = () => {
     <Layout>
       <Head title={data.site.siteMetadata.title} />
       <div className='index'>
-        <section className='ui vertical very fitted segment' style={{marginTop: '1rem'}}>
+        <section className='ui vertical very fitted segment' style={{marginTop: '0', paddingTop: '0'}}>
           <div className='ui container'>
-            <h1 className='ui header'>
+            <h1 className='ui header center aligned'>
               <div className='content'>
-                <span className={'page-title'}>Community Isolation Map of Aarau: The information network to keep your community safe.</span>
+                <div ><img class="main-logo"src={logo}></img>{/* {data.site.siteMetadata.title}: {data.site.siteMetadata.description} */}</div>
                 <div className='sub header'>
-                  Check out the interactive map and stay in touch with the community during the coronavirus isolation.{' '}
+                Viele kleine Läden und Dienstleister verwandeln sich in der Corona-Krise in Heimlieferdienste. Wir zeigen Ihnen, welche. Ist Ihr Geschäft nicht drauf?{' '}
                   <Link to={'/add'}>
-                    Add more public information to the map
+                  Helfen Sie mit!
                   </Link>
-                  {' '}to help keeping everyone healthy.
                 </div>
               </div>
             </h1>
@@ -44,24 +45,26 @@ const Index = () => {
         </section>
         <section className='ui vertical segment intro'>
           <div className='ui text container formcontainer'>
-            <h2>What do I see on this map?</h2>
+          <h2>Wie funktioniert die Karte?</h2>
             <p>
-              At the moment, the map shows people and shops who offer their help and services for the community in and around Muizenberg. I'm currently working to add more functionality to it:
+            Wählen Sie einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen.
+            Sie werden gebeten, uns einige Informationen über Ihren Eintrag zu geben, bevor Sie ihn abschicken können.
+            <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald Ihr Eintrag genehmigt ist, wird dieser auf der Karte angezeigt.
             </p>
-            <ul>
-              <li>A "help" <strong>function for vulnerable people and people in need</strong> who's data need to be protected. This will will soon be online.</li>
-              <li>Also, there will be an option to offer <strong>help without being on a map</strong>, if the offered services are not bound to any location.</li>
-            </ul>
+            <h2>Wie lege ich einen Eintrag an?</h2>
+            <p>
+              Sie können weiterhin Einträge erfassen. Sobald wir Ihre Daten geprüft haben, erscheinen diese auf der Karte.
+            </p>
             <Link
               to={'/add'}
               className='ui primary fluid button'
               style={{marginTop: '1rem'}}
             >
-              Add public information now
+              Eintrag erfassen
             </Link>
-            <h2>How can I delete myself from the app?</h2>
+            <h2>Wie kann ich mich austragen lassen?</h2>
             <p>
-              Write me an email to{' '}
+              Schreiben Sie eine Email an{' '}
               <a
                 href={`mailto:${data.site.siteMetadata.email}`}
                 target='_blank'
@@ -69,7 +72,7 @@ const Index = () => {
               >
                 {data.site.siteMetadata.email}
               </a>
-              .{' '}Otherwise, all your data will be automatically deleted once this map is not being needed anymore.
+              .{' '}Andernfalls werden Ihre Daten gelöscht, sobald diese Karte nicht mehr benötigt wird.
             </p>
           </div>
         </section>

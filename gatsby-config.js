@@ -4,11 +4,12 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    author: 'Marc Fehr',
-    title: 'Community Isolation Map',
+    author: 'Sandro Anderes',
+    creator: 'Marc Fehr',
+    title: 'Aarau hilft',
     description:
-      'This is the open source project for building your own community map.',
-    email: 'mail@xyz.com',
+      'Das Informations-Netzwerk für die Sicherheit deiner Stadt',
+    email: 'me@sandroanderes.ch',
     teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
       hashtag: 'yourHashtag',
@@ -20,13 +21,13 @@ module.exports = {
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
-      {title: 'Add', link: '/add', icon: 'plus'},
-      {title: 'Contact', link: '/contact', icon: 'info'},
+      {title: 'Erfassen', link: '/add', icon: 'plus'},
+      {title: 'Über uns', link: '/about', icon: 'info'},
     ],
     mapData: {
       bounds: [
-        [8.036668,47.395183], /*Oben links*/
-        [8.054771,47.390622] /*Unten rechts*/
+        [8.038299,47.390662], /*Oben links*/
+        [8.049565,47.395282] /*Unten rechts*/
       ]
     },
   },

@@ -9,6 +9,7 @@ const Footer = () => {
       site {
         siteMetadata {
           author,
+          creator,
           title,
           email,
           twitter {
@@ -20,9 +21,23 @@ const Footer = () => {
   `);
 
   return (
-    <footer className='ui vertical inverted segment'>
+    <footer className='ui vertical secondary segment'>
       <div className='ui center aligned container'>
-        <i className='ui icon copyright' />{new Date().getFullYear()}{' '}{data.site.siteMetadata.title}{' ' }|{' '}<a href={`mailto:${data.site.siteMetadata.email}`}><i className='ui icon envelope' />Write us an email</a>{' '}|{' '}<a href={`https://twitter.com/hashtag/${data.site.siteMetadata.twitter.hashtag}`} target={'_blank'} rel={'noopener noreferrer'}><i className='ui icon twitter' />Follow us on Twitter</a>{' '}|{' '}Built with <i className={'ui icon heart'} />by <a href='https://twitter.com/@mrcfhr' target={'_blank'} rel={'noopener noreferrer'}>{data.site.siteMetadata.author}</a>
+        <div>
+        <table>
+            <tbody>
+              <tr>
+                  <td>Entwicklung</td>
+                  <td class="content">{data.site.siteMetadata.author}{' ' }/{' ' }{data.site.siteMetadata.creator}</td>
+              </tr>
+              <tr>
+                <td>Veröffentlicht</td>
+                <td class="content">26.03.2020, 13:11</td>
+              </tr>
+            </tbody>
+          </table>   
+        </div>
+        <div class="copyright"><i className='ui icon copyright' />{new Date().getFullYear()}{' '}{data.site.siteMetadata.title}{' ' }|{' '}<a href={`mailto:${data.site.siteMetadata.email}`}><i className='ui icon envelope' />e-Mail</a>{' '}|{' '}<a href='/impressum' target={'_blank'} rel={'noopener noreferrer'}>Impressum</a></div>
       </div>
     </footer>
   );

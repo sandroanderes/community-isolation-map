@@ -9,8 +9,8 @@ export const ActivationButton = ({
   deactivate,
   // @ts-ignore
   initialState,
-  buttonTexts = ['Activate map', 'Activate scroll'],
-  icons = ['moving.svg', 'scrolling.svg']
+  buttonTexts = ['Activate map', 'Deactivte map'],
+  icon = ['moving.svg', 'lock.svg']
 }) => {
   const [state, setState] = useState(initialState)
   return (
@@ -23,7 +23,7 @@ export const ActivationButton = ({
             setState(true)
           }}
         >
-          <img src={require('./' + icons[0])} width='30px' />
+          <img src={require('./move.svg')} width='30px' />
           <br />
           {buttonTexts[0]}
         </div>
@@ -35,7 +35,7 @@ export const ActivationButton = ({
             setState(false)
           }}
         >
-          <img src={require('./' + icons[1])} width='30px' />
+          <img src={require('./move.svg')} width='30px' />
           <br />
           {buttonTexts[1]}
         </div>

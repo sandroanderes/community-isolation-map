@@ -12,18 +12,18 @@ html {
     margin-top: 1rem;
   }
 
-  strong {
-    border-bottom: 4px solid rgba(255, 221, 0, 0.6);
+  /* strong {
+    border-bottom: 3px solid rgba(230, 51, 18, 1);
     color: #000 !important;
-  }
+  } */
 
   .page-title {
     font-family: 'Roboto', sans-serif;
     color: black;
-    line-height: 0.9;
+    line-height: 1;
     display: block;
     @media screen and (min-width: 820px) {
-      font-size: 2em;
+      font-size: 1.6em;
       margin-top: 0;
     }
   }
@@ -79,4 +79,30 @@ html {
   #mapcontainer {
     position: relative;
   }
+  .column {
+    float: left;
+    height: 100%;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    width: 320px;
+    height: 180px;
+    object-fit: cover;
+    border: solid 1px black;
+    
+  }
+
+  section.galery{
+    margin-bottom:20%;
+  }
+  section.first{
+    margin-bottom:20px;
+  }
+
+  img.aarau{
+    height: 1.4rem;
+    object-fit: contain;
+  }
+
 }
