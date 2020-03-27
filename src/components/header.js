@@ -28,10 +28,10 @@ const Header = () => {
       <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,900&display=swap" rel="stylesheet"></link>
       <div className={'ui unstackable grid'}>
         <div className={'ui twelve wide column logo-column'}>
-          <img
+          <a href="/"><img
             className={'header-logo'}
             src={logo}
-          />
+          /></a>
           {/* <h1 className={'logo-font'}>
             <span>{data.site.siteMetadata.title}</span>
           </h1> */}

@@ -11,7 +11,6 @@ module.exports = {
     description:
       'Das Informations-Netzwerk für die Sicherheit deiner Stadt',
     email: 'me@sandroanderes.ch',
-    teaserImage: "https://www.whozinberg.org/teaser.jpg",
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'
