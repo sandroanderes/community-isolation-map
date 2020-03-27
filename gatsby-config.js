@@ -10,7 +10,7 @@ module.exports = {
     location: 'Aarau',
     description:
       'Das Informations-Netzwerk für die Sicherheit deiner Stadt',
-    email: 'me@sandroanderes.ch',
+    email: 'info@zaemestarch.ch',
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'

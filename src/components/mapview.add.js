@@ -348,7 +348,7 @@ export function MapAddComponent() {
           <a
             href={`mailto:${data.site.siteMetadata.email}`}
           >
-            me@sandroanderes.ch
+            info@zaemestarch.ch
           </a>
           <h2>Alles kann verbessert werden!</h2>
           Diese Seite soll genutzt werden, weshalb wir ständig nach konstruktivem Feedback suchen.

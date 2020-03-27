@@ -18,8 +18,8 @@ const About = () => {
                 Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> erstellt und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> verfügbar.
                 Weiterentwickelt wurde das Projekt durch 
                 <ul>
-                <li><a href={'mailto:me@sandroanderes.ch'}>Sandro Anderes</a></li>
-                <li><a href={'mailto:me@sandroanderes.ch'}>Frank Zinsli</a></li>
+                <li><a href={'mailto:info@zaemestarch.ch'}>Sandro Anderes</a></li>
+                <li><a href={'mailto:info@zaemestarch.ch'}>Frank Zinsli</a></li>
                 <li><a href={'mailto:beni.aebersold@gmail.com'}>Bernhard Aebersold</a></li>
                 </ul>
                 Jede Rückmeldung ist willkommen!
