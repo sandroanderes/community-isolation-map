@@ -91,7 +91,7 @@ function AnimatedMap(props) {
       container: 'map',
       style: mapStyle,
       zoom: 8,
-      minZoom: 12,
+      minZoom: 4,
       maxZoom: 18,
       interactive: true,
       bounds: data.site.siteMetadata.mapData.bounds,
