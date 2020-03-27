@@ -29,8 +29,7 @@ const Index = () => {
           <div className='ui container'>
             <h1 className='ui header center aligned'>
               <div className='content'>
-                <img class="main-logo"src={logo}></img>
-                <div className={'page-title'}>{data.site.siteMetadata.title}: {data.site.siteMetadata.description}</div>
+                <span className={'page-title'}>{data.site.siteMetadata.title}: {data.site.siteMetadata.description}</span>
                 <div className='sub header'>
                 Viele kleine Läden und Dienstleister verwandeln sich in der Corona-Krise in Heimlieferdienste. Wir zeigen Ihnen, welche. Ist Ihr Geschäft nicht drauf?{' '}
                   <Link to={'/add'}>

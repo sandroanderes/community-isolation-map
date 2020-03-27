@@ -1,0 +1,455 @@
+/*!
+ * # Semantic UI 2.4.2 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: auto;
+  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.44em;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.05em;
+  margin: calc(2rem -  0.025em ) 0em 1rem;
+  font-weight: 500;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 4.24rem;
+}
+h2 {
+  font-size: 2.955rem;
+}
+h3 {
+  font-size: 2.059rem;
+}
+h4 {
+  font-size: 1.435rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.44em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #E63312;
+  text-decoration: none;
+}
+a:hover {
+  color: #b41d03;
+  text-decoration: none;
+}
+
+
+/*******************************
+         Scrollbars
+*******************************/
+
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Force Simple Scrollbars */
+body ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+body ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+body ::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+body ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.15);
+}
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 135, 139, 0.8);
+}
+
+/* Inverted UI */
+body .ui.inverted::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+body .ui.inverted::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.15);
+}
+body .ui.inverted::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+
+.ta.lead {
+  font-size: 120%;
+}
+.ta.author,
+.ta.byline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 2.5ex;
+}
+.ta.interview p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ta.interview.question {
+  margin-top: 4.5ex;
+  font-weight: 700;
+}
+.ta.interview.question:first-of-type {
+  margin-top: 0;
+}
+.infographic.infographic.infographic,
+.chart.chart.chart {
+  font-family: 'Roboto', sans-serif;
+}
+.caption.caption.caption {
+  font-family: 'Roboto', sans-serif;
+}
+.interactive.interactive.interactive,
+.neutral.neutral.neutral {
+  font-family: 'Roboto', system-ui,
+/* macOS 10.11-10.12 */ -apple-system, 
+/* Windows 6+ */ Segoe UI, 
+/* Android 4+ */ Roboto, 
+/* Ubuntu 10.10+ */ Ubuntu, 
+/* Gnome 3+ */ Cantarell, 
+/* KDE Plasma 5+ */ Noto Sans, 
+/* fallback */ sans-serif, 
+/* macOS emoji */ "Apple Color Emoji", 
+/* Windows emoji */ "Segoe UI Emoji", 
+/* Windows emoji */ "Segoe UI Symbol", 
+/* Linux emoji */ "Noto Color Emoji";
+}
+.display.display.display {
+  font-family: 'Roboto', sans-serif;
+}
+.ta.caption.caption.caption {
+  font-size: 90%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.25;
+  font-style: italic;
+}
+.ta.caption.caption.caption.small.small.small {
+  font-size: 75%;
+  font-family: 'Roboto', system-ui,
+/* macOS 10.11-10.12 */ -apple-system, 
+/* Windows 6+ */ Segoe UI, 
+/* Android 4+ */ Roboto, 
+/* Ubuntu 10.10+ */ Ubuntu, 
+/* Gnome 3+ */ Cantarell, 
+/* KDE Plasma 5+ */ Noto Sans, 
+/* fallback */ sans-serif, 
+/* macOS emoji */ "Apple Color Emoji", 
+/* Windows emoji */ "Segoe UI Emoji", 
+/* Windows emoji */ "Segoe UI Symbol", 
+/* Linux emoji */ "Noto Color Emoji";
+}
+.ta.caption.caption.caption.secondary {
+  opacity: 0.66;
+}
+.ta.caption.caption.caption.tertiary {
+  opacity: 0.33;
+}
+img + .ta.caption,
+.ui.image + .ta.caption {
+  margin-top: 0.5ex;
+}
+body.inverted {
+  background-color: #1B1C1D;
+}
+body .inverted a[href] {
+  color: #68c9ff;
+}
+body .inverted a[href]:hover {
+  color: #68c9ff;
+}
+
+/* Mobile */
+@media only screen and (max-width: 599px) {
+  [class*="mobile hidden"],
+  [class*="tablet only"]:not(.mobile),
+  [class*="computer only"]:not(.mobile),
+  [class*="large screen only"]:not(.mobile),
+  [class*="widescreen only"]:not(.mobile),
+  [class*="or lower hidden"] {
+    display: none !important;
+  }
+}
+
+/* Tablet / iPad Portrait */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  [class*="mobile only"]:not(.tablet),
+  [class*="tablet hidden"],
+  [class*="computer only"]:not(.tablet),
+  [class*="large screen only"]:not(.tablet),
+  [class*="widescreen only"]:not(.tablet),
+  [class*="or lower hidden"]:not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Computer / Desktop / iPad Landscape */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  [class*="mobile only"]:not(.computer),
+  [class*="tablet only"]:not(.computer),
+  [class*="computer hidden"],
+  [class*="large screen only"]:not(.computer),
+  [class*="widescreen only"]:not(.computer),
+  [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Large Monitor */
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {
+  [class*="mobile only"]:not([class*="large screen"]),
+  [class*="tablet only"]:not([class*="large screen"]),
+  [class*="computer only"]:not([class*="large screen"]),
+  [class*="large screen hidden"],
+  [class*="widescreen only"]:not([class*="large screen"]),
+  [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+    display: none !important;
+  }
+}
+
+/* Widescreen Monitor */
+@media only screen and (min-width: 1800px) {
+  [class*="mobile only"]:not([class*="widescreen"]),
+  [class*="tablet only"]:not([class*="widescreen"]),
+  [class*="computer only"]:not([class*="widescreen"]),
+  [class*="large screen only"]:not([class*="widescreen"]),
+  [class*="widescreen hidden"],
+  [class*="widescreen or lower hidden"] {
+    display: none !important;
+  }
+}
+:root {
+  --ui-font-stack: 'Roboto', system-ui, 
+/* macOS 10.11-10.12 */ -apple-system, 
+/* Windows 6+ */ Segoe UI, 
+/* Android 4+ */ Roboto, 
+/* Ubuntu 10.10+ */ Ubuntu, 
+/* Gnome 3+ */ Cantarell, 
+/* KDE Plasma 5+ */ Noto Sans, 
+/* fallback */ sans-serif, 
+/* macOS emoji */ "Apple Color Emoji", 
+/* Windows emoji */ "Segoe UI Emoji", 
+/* Windows emoji */ "Segoe UI Symbol", 
+/* Linux emoji */ "Noto Color Emoji";
+  --text-font-stack: 'Roboto', Georgia, serif;
+  --display-font-stack: 'Roboto', Georgia, serif;
+  --chart-font-stack: 'Roboto', Helvetica, Arial, sans-serif;
+  --infographic-font-stack: 'Roboto', Helvetica, Arial, sans-serif;
+  --largest-mobile-screen: 599px;
+  --tablet-breakpoint: 600px;
+  --largest-tablet-screen: 899px;
+  --computer-breakpoint: 900px;
+  --largest-small-monitor: 1199px;
+  --large-monitor-breakpoint: 1200px;
+  --largest-large-monitor: 1799px;
+  --widescreen-monitor-breakpoint: 1800px;
+  --primary: #E63312;
+  --secondary: #5A686D;
+  --red: #E23C4E;
+  --orange: #F8813D;
+  --yellow: #FFCA18;
+  --olive: #456558;
+  --green: #54AF71;
+  --teal: #00A1CA;
+  --blue: #1D5F82;
+  --violet: #525394;
+  --purple: #AD427F;
+  --pink: #E03997;
+  --brown: #A67A00;
+  --grey: #5A686D;
+  --black: #1B1C1D;
+  --light-red: #FBCECD;
+  --light-orange: #FFE2C7;
+  --light-yellow: #FFF1BD;
+  --light-olive: #D7EBDA;
+  --light-green: #D0DAD6;
+  --light-teal: #CAE8F4;
+  --light-blue: #C7D2DF;
+  --light-violet: #DBD8EA;
+  --light-purple: #EED0E1;
+  --light-pink: #FFE3FB;
+  --light-brown: #F1E2D3;
+  --red-text-color: #E23C4E;
+  --orange-text-color: #F8813D;
+  --yellow-text-color: #A67A00;
+  --olive-text-color: #456558;
+  --green-text-color: #326b44;
+  --teal-text-color: #005064;
+  --blue-text-color: #1D5F82;
+  --violet-text-color: #1D5F82;
+  --purple-text-color: #AD427F;
+  --pink-text-color: #E03997;
+  --brown-text-color: #A67A00;
+  --dark-text-color: rgba(0, 0, 0, 0.95);
+  --text-color: rgba(0, 0, 0, 0.87);
+  --muted-text-color: rgba(0, 0, 0, 0.6);
+  --light-text-color: rgba(0, 0, 0, 0.4);
+  --subtle-transparent-black: rgba(0, 0, 0, 0.03);
+  --transparent-black: rgba(0, 0, 0, 0.05);
+  --strong-transparent-black: rgba(0, 0, 0, 0.1);
+  --very-strong-transparent-black: rgba(0, 0, 0, 0.15);
+  --subtle-transparent-white: rgba(255, 255, 255, 0.02);
+  --transparent-white: rgba(255, 255, 255, 0.08);
+  --strong-transparent-white: rgba(255, 255, 255, 0.15);
+  --off-white: #F9FAFB;
+  --dark-white: #F3F4F5;
+  --mid-white: #DCDDDE;
+  --light-grey: #E7F1F6;
+  --mid-grey: #CDD2D3;
+}
+.inverted {
+  --primary: #26b1ff;
+  --secondary: #8d9ba0;
+  --red: #f77482;
+  --orange: #ff8945;
+  --yellow: #ffca18;
+  --olive: #52a583;
+  --green: #68ce88;
+  --teal: #00cafd;
+  --blue: #1782bb;
+  --violet: #6d6ec6;
+  --purple: #d864a6;
+  --pink: #f670bb;
+  --brown: #f3b200;
+  --grey: #7f8f95;
+  --black: #545454;
+  --dark-text-color: rgba(255, 255, 255, 0.9);
+  --text-color: rgba(255, 255, 255, 0.9);
+  --muted-text-color: rgba(255, 255, 255, 0.8);
+  --light-text-color: rgba(255, 255, 255, 0.7);
+  --subtle-transparent-black: rgba(255, 255, 255, 0.02);
+  --transparent-black: rgba(255, 255, 255, 0.08);
+  --strong-transparent-black: rgba(255, 255, 255, 0.15);
+  --very-strong-transparent-black: rgba(255, 255, 255, 0.15);
+  --subtle-transparent-white: rgba(0, 0, 0, 0.03);
+  --transparent-white: rgba(0, 0, 0, 0.05);
+  --strong-transparent-white: rgba(0, 0, 0, 0.1);
+}

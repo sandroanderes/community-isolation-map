@@ -13,16 +13,13 @@
   } */
 
   .page-title {
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: black;
+    line-height: 0.9;
     line-height: 1;
     display: block;
-
-    @media only screen and (min-width: 599px) {
-      display:none;
-    }
   }
 
   h1.ui.header .sub.header {
@@ -75,13 +72,5 @@
 
   #mapcontainer {
     position: relative;
-  }
-  img.main-logo{
-    margin: 0 auto;
-    width:60vw;
-  
-    @media only screen and (max-width: 599px) {
-      display:none;
-    }
   }
 }

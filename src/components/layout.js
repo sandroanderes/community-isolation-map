@@ -22,6 +22,13 @@ import '@ta-interaktiv/semantic-ui/semantic/dist/components/icon.css'
 import '@ta-interaktiv/semantic-ui/semantic/dist/components/label.css'
 import '@ta-interaktiv/semantic-ui/semantic/dist/components/grid.css'
 
+
+import '../styles/semantic-ui/site.css'
+import '../styles/semantic-ui/segment.css'
+import '../styles/semantic-ui/container.css'
+import '../styles/semantic-ui/header.css'
+import '../styles/semantic-ui/button.css'
+
 import '../styles/index.scss';
 import './layout.scss';
 

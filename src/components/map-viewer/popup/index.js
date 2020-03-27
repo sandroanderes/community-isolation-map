@@ -55,13 +55,13 @@ function Popup(props) {
       <h2>Name</h2>
       {props.title}
 
-      <h2>Description</h2>
+      <h2>Beschreibbung</h2>
       {ln2br(props.description)}
 
-      <h2>Contact</h2>
+      <h2>Kontakt</h2>
       <span dangerouslySetInnerHTML={{ __html: urlify(props.contact) }} />
 
-      <h2>Address</h2>
+      <h2>Adresse</h2>
       {ln2br(props.address)}
     </div>
   )
