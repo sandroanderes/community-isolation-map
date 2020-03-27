@@ -27,8 +27,8 @@ module.exports = {
     ],
     mapData: {
       bounds: [
-        [8.038299,47.390662], /*Oben links*/
-        [8.049565,47.395282] /*Unten rechts*/
+        [8.018189,47.367233], /*Oben links*/
+        [8.107004,47.412349] /*Unten rechts*/
       ]
     },
   },

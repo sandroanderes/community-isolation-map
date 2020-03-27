@@ -32,8 +32,8 @@ const About = () => {
       <div class="ui container galery">
         <h2>Weitere Projekte</h2>
             <a href="https://churhilftchur.ch"><img src="https://chur.graubuenden.ch/sites/chur/files/styles/grf_global_xl/public/bynder/6fd5c93c628e9d47.jpg?itok=Uc_5JVZK" alt="Chur"></img></a>
-            <a class="middle-galery" href="https://interaktiv.tagesanzeiger.ch/2020/zurich-liefert/"><img src="https://www.oebb.at/thumbnails/www.nightjet.com/.imaging/default/dam/nightjet/hero-header/header-overlay-1422x800/laender-und-staedte-1422x800/Zuerich-615269908-RossHelen-iStock-Thinkstock.jpg/jcr:content.jpg?t=1505724120494&scale=0.5" alt="Zürich"></img></a>
-            <a href="#zizers"><img src="https://buergergemeinde-zizers.ch/wp-content/uploads/2019/10/dji_0079-1600x800.jpg" alt="Zizers"></img></a>
+            <a class="middle-galery" href="https://interaktiv.tagesanzeiger.ch/2020/zurich-liefert/"><img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/11/27/0825/Park-Hyatt-Zurich-P824-Destination-Zurich.jpg/Park-Hyatt-Zurich-P824-Destination-Zurich.16x9.jpg" alt="Zürich"></img></a>
+            <a href="https://zizers-hilft.netlify.com/"><img src="https://www.suedostschweiz.ch/sites/default/files/styles/np8_amp/public/elvis-media/2019-08/0258954_preview.jpg?itok=4uvI1QrC" alt="Zizers"></img></a>
       </div>
       </section>
       <section className='ui vertical segment'>
