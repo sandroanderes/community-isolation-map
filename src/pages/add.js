@@ -19,8 +19,8 @@ const Add = () => {
               </span>
                 <div className='sub header'>
                 Während die Geschäfte und Restaurants schließen, werden die Menschen immer mehr isoliert.
-                Bleiben Sie sicher, helfen Sie, wo Sie können, und bleiben Sie positiv.
-                Vielen Dank für die Weitergabe Ihrer Informationen in der interaktiven Karte unten.
+                Bleibe sicher, helfe mit wo du kannst und bleib positiv.
+                Vielen Dank für die Weitergabe deiner Informationen in der interaktiven Karte unten.
                 </div>
               </div>
             </h1>
@@ -31,9 +31,9 @@ const Add = () => {
           <div className='ui text container formcontainer'>
             <h2>Wie funktioniert die Karte?</h2>
             <p>
-            Wählen Sie einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen.
-            Sie werden gebeten, uns einige Informationen über Ihren Eintrag zu geben, bevor Sie ihn abschicken können.
-            <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald Ihr Eintrag genehmigt ist, wird dieser {' '}
+            Wähle einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen.
+            Du wirst gebeten, uns einige Informationen über deinen Eintrag zu geben, bevor du ihn abschicken kannst.
+            <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald dein Eintrag genehmigt ist, wird dieser {' '}
             <Link to='/'>
               hier
             </Link>

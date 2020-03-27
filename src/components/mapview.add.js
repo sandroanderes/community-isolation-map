@@ -189,7 +189,9 @@ export function MapAddComponent() {
                 Über deine Dienstleistung
               </h4>
               <p>
-              Bitte beantworten Sie die folgenden Fragen. Diese Daten werden auf der Karte angezeigt. Im Moment ist es nur möglich, <stark>eine Kategorie</stark> pro Punkt zu wählen. Wenn Sie mehr als eine Information haben, müssen Sie jede einzelne der Karte hinzufügen.
+              Bitte beantworte die folgenden Fragen. Diese Daten werden auf der Karte angezeigt.
+              Im Moment ist es nur möglich, <stark>eine Kategorie</stark> pro Punkt zu wählen.
+              Wenn du mehr als eine Information hast, musst du jede einzelne der Karte hinzufügen.
               </p>
 
               <div className='field'>
@@ -216,7 +218,7 @@ export function MapAddComponent() {
               </div>
 
               <div className='field required'>
-                <label>Titel Ihrers Angebotes</label>
+                <label>Titel deines Angebotes</label>
                 <input
                   type='text'
                   name='title'
@@ -227,7 +229,7 @@ export function MapAddComponent() {
               </div>
 
               <div className='field required'>
-                <label>Was bieten Sie an?</label>
+                <label>Was bietest du an?</label>
                 <textarea
                   rows={4}
                   name='description'
@@ -238,7 +240,7 @@ export function MapAddComponent() {
               </div>
 
               <div className='field required'>
-                <label>Wie kann ich mit Ihnen in Kontakt treten?</label>
+                <label>Wie trete ich in Kontakt?</label>
                 <textarea
                   rows={4}
                   name='contact'
@@ -303,7 +305,7 @@ export function MapAddComponent() {
                 <div className='ui negative message'>
                   <div className='header'>Fehlende Daten</div>
                   <p>
-                    Bitte füllen Sie alle benötigten Felder aus.
+                    Bitte fülle alle benötigten Felder aus.
                   </p>
                 </div>
               )}
@@ -323,7 +325,7 @@ export function MapAddComponent() {
             <div className='ui success message'>
               <div className='header'>Danke!</div>
               <p>
-                Ihre Daten wurden erfolgreich übermittelt und werden bald auf{' '}
+                Deine Daten wurden erfolgreich übermittelt und werden bald auf{' '}
                 <Link to='/'>{' '}{data.site.siteMetadata.title}
                 </Link>{' '}
                 sobald es von den Administratoren genehmigt wurde.
@@ -336,24 +338,28 @@ export function MapAddComponent() {
       <div className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>Was passiert mit meinen Daten?</h2>
-          Die Administratoren prüfen Ihren Eintrag und fügen ihn der interaktiven Karte hinzu, sobald sie ihre Zustimmung gegeben haben. Dies dauert normalerweise <stark>weniger als 24 Stunden</stark>.<br />
+          Die Administratoren prüfen deinen Eintrag und fügen ihn der interaktiven Karte hinzu, sobald du deine Zustimmung gegeben hast.
+          Dies dauert normalerweise <stark>weniger als 24 Stunden</stark>. Keine Angst, <strong>deine Daten werden nicht an Dritte weitergegeben</strong>.<br />
           <h2>Welche Einträge werden genehmigt?</h2>
-          Jeder kann Teil der Gemeinschaft werden. Ob Sie Kindern über Skype Bücher vorlesen, jeden Mittwoch ein paar Scheiben Ihres leckeren Sauerteigbrotes liefern oder einfach einen neuen Take-away-Service für Ihre Produkte starten - hier sind Sie richtig.
+          Jeder kann Teil der Gemeinschaft werden.
+          Ob du Kindern über Skype Bücher vorliest, jeden Mittwoch ein paar Scheiben deines leckeren Sauerteigbrotes lieferst oder einfach einen neuen Take-away-Service für deine Produkte startest - hier bist du richtig.
           <h2>Wie kann ich mich austragen lassen?</h2>
-          Schreiben Sie eine Email an{' '}
+          Schreibe eine Email an{' '}
           <a
             href={`mailto:${data.site.siteMetadata.email}`}
           >
             me@sandroanderes.ch
           </a>
           <h2>Alles kann verbessert werden!</h2>
-          Diese Seite soll genutzt werden, weshalb wir ständig nach konstruktivem Feedback suchen. Wenn Sie etwas haben, von dem Sie glauben, dass es das Ganze besser machen würde, lassen Sie es mich via {' '}
+          Diese Seite soll genutzt werden, weshalb wir ständig nach konstruktivem Feedback suchen.
+          Wenn du etwas hast, von dem du glaubst, dass es das Ganze besser machen würde, lass es mich via {' '}
           <a
           href={`mailto:${data.site.siteMetadata.email}`}>
           e-Mail
         </a>{' '}wissen.
           <h2>Warum nur Aarau?</h2>
-          Momentan ist es das Ziel unser leben so lokal und isoliert wie möglich zu halten. Weitere Orte wie Olten, Chur oder Zürich sind aber bereits in Entwicklung. Sie finden diese unter{' '}
+          Momentan ist es das Ziel unser leben so lokal und isoliert wie möglich zu halten.
+          Weitere Orte wie Olten, Chur oder Zürich sind aber bereits in Entwicklung. Du findest diese unter{' '}
           <Link to='/about'>{' '}Über uns</Link>.
         {' '}Dieses vollständige Projekt ist auch als <stark>Open-Source-Repository</stark> auf <a href="https://gitlab.com/marc.fehr/community-isolation-map">Gitlab</a> verfügbar.
         </div>

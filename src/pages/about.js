@@ -22,7 +22,7 @@ const About = () => {
                 <li><a href={'mailto:me@sandroanderes.ch'}>Frank Zinsli</a></li>
                 <li><a href={'mailto:beni.aebersold@gmail.com'}>Bernhard Aebersold</a></li>
                 </ul>
-                Bitte teilen Sie diese Idee und wenden Sie sich an uns, wenn Sie Hilfe bei der Einrichtung dieser Seite für Ihre Gemeinde benötigen. Jede Rückmeldung ist willkommen!
+                Jede Rückmeldung ist willkommen!
               </div>
             </div>
           </h1>
@@ -39,7 +39,7 @@ const About = () => {
       <section className='ui vertical segment'>
         <div className='ui text container formcontainer'>
           <h2>#AarauHilftAarau <img class="aarau" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Wappen_Aarau.svg"></img></h2>
-          <p>Teilen Sie diese Seite und helfen Sie ihrer Stadt!</p>
+          <p>Teile diese Seite und hilf deiner Stadt!</p>
         </div>
         
       </section>

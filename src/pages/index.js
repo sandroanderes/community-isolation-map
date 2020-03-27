@@ -14,6 +14,7 @@ const Index = () => {
       site {
         siteMetadata {
           title,
+          location,
           description,
           email
         }
@@ -29,11 +30,13 @@ const Index = () => {
           <div className='ui container'>
             <h1 className='ui header center aligned'>
               <div className='content'>
-                <span className={'page-title'}>{data.site.siteMetadata.title}: {data.site.siteMetadata.description}</span>
+                <span className={'page-title'}>Zäme starch: Das Hilfsnetzwerk in {data.site.siteMetadata.location}</span>
                 <div className='sub header'>
-                Viele kleine Läden und Dienstleister verwandeln sich in der Corona-Krise in Heimlieferdienste. Wir zeigen Ihnen, welche. Ist Ihr Geschäft nicht drauf?{' '}
+                In Zeiten von Selbstisolation und Social Distancing soll in Aarau niemand alleine sein.
+                Liest du gerne Geschichten via Skype vor, hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten?
+                Füge deine Einträge in die interaktive Karte ein, damit wir diese Zeit gemeinsam durchstehen.{' '}
                   <Link to={'/add'}>
-                  Helfen Sie mit!
+                  Hilf mit!
                   </Link>
                 </div>
               </div>
@@ -47,13 +50,13 @@ const Index = () => {
           <div className='ui text container formcontainer'>
           <h2>Wie funktioniert die Karte?</h2>
             <p>
-            Wählen Sie einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen.
-            Sie werden gebeten, uns einige Informationen über Ihren Eintrag zu geben, bevor Sie ihn abschicken können.
-            <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald Ihr Eintrag genehmigt ist, wird dieser auf der Karte angezeigt.
+            Wähle einen Ort auf der Karte, an dem die Informationen angezeigt werden sollen.
+            Du wirst gebeten, uns einige Informationen über deinen Eintrag zu geben, bevor du ihn abschicken kannst.
+            <strong>Wir werden alle Einträge manuell überprüfen.</strong> Sobald dein Eintrag genehmigt ist, wird dieser auf der Karte angezeigt.
             </p>
             <h2>Wie lege ich einen Eintrag an?</h2>
             <p>
-              Sie können weiterhin Einträge erfassen. Sobald wir Ihre Daten geprüft haben, erscheinen diese auf der Karte.
+              Du kannst weiterhin Einträge erfassen. Sobald wir deine Daten geprüft haben, erscheinen diese auf der Karte.
             </p>
             <Link
               to={'/add'}
@@ -64,7 +67,7 @@ const Index = () => {
             </Link>
             <h2>Wie kann ich mich austragen lassen?</h2>
             <p>
-              Schreiben Sie eine Email an{' '}
+              Schreibe eine Email an{' '}
               <a
                 href={`mailto:${data.site.siteMetadata.email}`}
                 target='_blank'
@@ -72,7 +75,7 @@ const Index = () => {
               >
                 {data.site.siteMetadata.email}
               </a>
-              .{' '}Andernfalls werden Ihre Daten gelöscht, sobald diese Karte nicht mehr benötigt wird.
+              .{' '}Andernfalls werden deine Daten gelöscht, sobald diese Karte nicht mehr benötigt wird.
             </p>
           </div>
         </section>

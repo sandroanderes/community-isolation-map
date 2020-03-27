@@ -1,17 +1,16 @@
 header {
   .logo-column {
-    height: 50px;
     display: flex;
     justify-content: flex-end;
-    .header-logo {
+    img.header-logo {
+      margin-left:10px;
+      margin-top:10px;
       float: left;
-      width: 50px;
-      height: 50px;
-      background-size: cover;
+      width: 180px;
       display: flex;
-      -webkit-animation: rotation 15s infinite linear;
+      /* -webkit-animation: rotation 15s infinite linear;
       animation: rotation 15s infinite linear;
-      -moz-animation: rotation 15s infinite linear;
+      -moz-animation: rotation 15s infinite linear; */
     }
     h1.logo-font {
       display: flex;
@@ -34,7 +33,7 @@ header {
     a {
       display: flex;
       align-self: center;
-      color: #24D1D2;
+      color: #E63312;
       opacity: 0.7;
       font-size: 1.5;
 
