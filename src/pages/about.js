@@ -38,8 +38,8 @@ const About = () => {
       </section>
       <section className='ui vertical segment'>
         <div className='ui text container formcontainer'>
-          <h2>#AarauHilftAarau <img class="aarau" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Wappen_Aarau.svg"></img></h2>
-          <p>Teile diese Seite und hilf deiner Stadt!</p>
+          <h2>#MiteinanderFuereinander</h2>
+          <p>Teile diese Seite und hilf deiner Region!</p>
         </div>
         
       </section>

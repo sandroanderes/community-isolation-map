@@ -136,7 +136,7 @@ export function MapAddComponent() {
           <div id='overlay' className='box'>
             <h3>Neuer Eintrag hinzufügen</h3>
             <p>
-              Wählen Sie eine Position auf der Karte innerhalb der Gemeindegrenzen, um Teil von <strong>Aarau</strong> zu werden.
+              Wählen Sie eine Position auf der Karte innerhalb der Regionsgrenze, um Teil von <strong>der Gemeinschaft</strong> zu werden.
             </p>
             <button
               className='ui primary button'
@@ -357,9 +357,9 @@ export function MapAddComponent() {
           href={`mailto:${data.site.siteMetadata.email}`}>
           e-Mail
         </a>{' '}wissen.
-          <h2>Warum nur Aarau?</h2>
+          <h2>Warum nur Olten-Gösgen-Aarau?</h2>
           Momentan ist es das Ziel unser leben so lokal und isoliert wie möglich zu halten.
-          Weitere Orte wie Olten, Chur oder Zürich sind aber bereits in Entwicklung. Du findest diese unter{' '}
+          Weitere Orte wie Chur, Zürich oder Zizers sind aber bereits in Entwicklung. Du findest diese unter{' '}
           <Link to='/about'>{' '}Über uns</Link>.
         {' '}Dieses vollständige Projekt ist auch als <stark>Open-Source-Repository</stark> auf <a href="https://gitlab.com/marc.fehr/community-isolation-map">Gitlab</a> verfügbar.
         </div>

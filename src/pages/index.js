@@ -32,7 +32,7 @@ const Index = () => {
               <div className='content'>
                 <span className={'page-title'}>Zäme starch: Das Hilfsnetzwerk in {data.site.siteMetadata.location}</span>
                 <div className='sub header'>
-                In Zeiten von Selbstisolation und Social Distancing soll in Aarau niemand alleine sein.
+                In Zeiten von Selbstisolation und Social Distancing soll in deiner Region niemand alleine sein.
                 Liest du gerne Geschichten via Skype vor, hast du Zeit für jemanden einzukaufen oder sonst etwas anzubieten?
                 Füge deine Einträge in die interaktive Karte ein, damit wir diese Zeit gemeinsam durchstehen.{' '}
                   <Link to={'/add'}>

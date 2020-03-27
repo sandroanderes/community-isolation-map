@@ -6,10 +6,10 @@ module.exports = {
   siteMetadata: {
     author: 'Sandro Anderes',
     creator: 'Marc Fehr',
-    title: 'zäme starch - Aarau',
-    location: 'Aarau',
+    title: 'zäme starch',
+    location: 'deiner Region',
     description:
-      'Das Informations-Netzwerk für die Sicherheit deiner Stadt',
+      'Das Informations-Netzwerk für die Sicherheit deiner Region',
     email: 'info@zaemestarch.ch',
     twitter: {
       hashtag: 'yourHashtag',
@@ -17,7 +17,7 @@ module.exports = {
     },
     share: {
       text: 'So kannst du helfen: zaemestarch.ch',
-      hashtags: 'AarauHilftAarau,Coronavirus,StayTheFuckHome,zaemestarch' // separate with commas,
+      hashtags: 'MiteinanderFuereinander,Coronavirus,StayTheFuckHome,ZaemeStarch' // separate with commas,
     },
     menuLinks: [
       {title: 'Home', link: '/', icon: 'map'},
