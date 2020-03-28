@@ -328,7 +328,7 @@ export function MapAddComponent() {
                 Deine Daten wurden erfolgreich übermittelt und werden bald auf{' '}
                 <Link to='/'>{' '}{data.site.siteMetadata.title}
                 </Link>{' '}
-                sobald es von den Administratoren genehmigt wurde.
+                angezeigt, sobald es von den Administratoren genehmigt wurde.
               </p>
             </div>
           </div>
