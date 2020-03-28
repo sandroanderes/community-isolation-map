@@ -15,14 +15,16 @@ const About = () => {
               Über uns
             </span>
               <div className='sub header'>
-                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> erstellt und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> verfügbar.
+                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> und dem <a href={"https://www.tagesanzeiger.ch"}>Tagsanzeiger</a> ins Leben gerufen und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> verfügbar.
                 Weiterentwickelt wurde das Projekt durch 
                 <ul>
                 <li><a href={'mailto:info@zaemestarch.ch'}>Sandro Anderes</a></li>
                 <li><a href={'mailto:info@zaemestarch.ch'}>Frank Zinsli</a></li>
                 <li><a href={'mailto:beni.aebersold@gmail.com'}>Bernhard Aebersold</a></li>
                 </ul>
-                Jede Rückmeldung ist willkommen!
+                Beim Projekt geht es darum, nachbarschaftlich für einander da zu sein, in einer Zeit, in der man isoliert sein sollte.
+                Ziel ist es, dass weitere solche kleine Communities entstehen. Bitte teilt die Idee euren Freunden mit.
+                Ich freue mich, auf dein Feedback!
               </div>
             </div>
           </h1>
