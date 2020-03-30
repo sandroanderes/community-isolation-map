@@ -11,6 +11,7 @@ module.exports = {
     description:
       'Das Informations-Netzwerk für die Sicherheit deiner Region',
     email: 'info@zaemestarch.ch',
+    teaserImage: "https://www.zaemestarch.ch/teaser.jpg",
     twitter: {
       hashtag: 'yourHashtag',
       handle: 'yourTwitterHandle'
