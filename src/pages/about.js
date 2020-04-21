@@ -15,7 +15,7 @@ const About = () => {
               Über uns
             </span>
               <div className='sub header'>
-                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> und dem <a href={"https://www.tagesanzeiger.ch"}>Tagsanzeiger</a> ins Leben gerufen und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> verfügbar.
+                Das ursprüngliche Projekt wurde von <a href={'mailto:marc.fehr@gmail.com'}>Marc Fehr</a> und Simon Huwiler vom <a href={"https://www.tagesanzeiger.ch"}>Tagsanzeiger</a> ins Leben gerufen und ist als Open-Source-Repository auf <a href={'https://gitlab.com/marc.fehr/community-isolation-map'} target={'_blank'} rel={'noopener noreferrer'}>Gitlab</a> verfügbar.
                 Weiterentwickelt wurde das Projekt durch 
                 <ul>
                 <li><a href={'mailto:info@zaemestarch.ch'}>Sandro Anderes</a></li>
